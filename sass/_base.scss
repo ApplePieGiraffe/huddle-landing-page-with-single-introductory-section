@@ -1,0 +1,23 @@
+:root {
+    --color-violet: hsl(257, 40%, 49%);
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 50%;
+
+    @media only screen and (max-width: 1150px) {
+        font-size: 45%;
+    }
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
