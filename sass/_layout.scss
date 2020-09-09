@@ -9,6 +9,8 @@ body {
     font-weight: 300;
     overflow: hidden;
 
+    // MEDIA QUERIES
+
     @media only screen and (max-width: 800px) {
         background: url(../img/bg-mobile.svg), var(--color-violet);
         background-size: cover;
@@ -22,6 +24,8 @@ header {
     justify-content: flex-start;
     height: 20vh;
     padding-left: 7rem;
+
+    // MEDIA QUERIES
 
     @media only screen and (max-width: 800px) {
         height: 15rem;
@@ -38,6 +42,8 @@ main {
     align-items: center;
     height: 65vh;
 
+    // MEDIA QUERIES
+
     @media only screen and (max-width: 800px) {
         flex-direction: column;
         height: min-content;
@@ -47,6 +53,8 @@ main {
         display: flex;
         justify-content: flex-end;
         width: 53%;
+
+        // MEDIA QUERIES
 
         @media only screen and (max-width: 800px) {
             justify-content: center;
@@ -59,6 +67,8 @@ main {
             margin-top: 5rem;
             margin-right: 2rem;
             animation: fadeIn 1s, moveInBottom 1s;
+
+            // MEDIA QUERIES
 
             @media only screen and (max-width: 800px) {
                 width: 80%;
@@ -73,6 +83,8 @@ main {
         padding: 8rem;
         animation: fadeIn 1s, moveInTop 1s;
 
+        // MEDIA QUERIES
+
         @media only screen and (max-width: 800px) {
             width: 80%;
             padding: 0;
@@ -84,6 +96,8 @@ main {
             font-family: 'Poppins', sans-serif;
             font-size: 4.2rem;
             font-weight: 500;
+
+            // MEDIA QUERIES
 
             @media only screen and (max-width: 900px) {
                 font-size: 3.6rem;
@@ -131,6 +145,8 @@ footer {
     height: 15vh;
     padding: 4rem 7rem;
 
+    // MEDIA QUERIES
+
     @media only screen and (max-width: 800px) {
         justify-content: center;
         height: 15rem;
@@ -139,6 +155,8 @@ footer {
     .attribution {
         margin-right: auto;
         font-size: 11px;
+
+        // MEDIA QUERIES
 
         @media only screen and (max-width: 800px) {
             display: none;
